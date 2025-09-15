@@ -1,5 +1,5 @@
 DB_USERNAME: "root"
 DB_PASS: ""
-DB_URL: "localhost"
+DB_URL: "host.docker.internal"
 DB_PORT: 3306
 DB_NAME: "hd"
