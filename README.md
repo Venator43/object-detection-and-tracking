@@ -24,3 +24,11 @@ untuk menjalankan program yang telah saya buat menggunakan docker, anda dapat de
 Jika anda tidak menggunakan docker, pertama anda harus menginstall package yang dibutuhkan dengan menggunakan command "pip install -r requirements.txt" kemudian anda dapat menjalankan program API dengan cara menggunakan command "python api.py" dan menjalankan program object detection dengan menggunakan command "python main.py" setelah emnjalankan kedua program tersebut, sama seperti pada docker anda dapat mengakses API dengan cara memasuki URL : "http://localhost:8000/docs" dan video object detection dengan cara memasuki URL : "http://localhost:5000/"
 
 Selain menggunakan website untuk menjalankan program object detection dan tracking, anda juga dapat menjalankan versi non-web program dengan menjalankan command "python live.py" untuk menjalankan program menggunakan video livestream atau "python static.py" untuk menjalankan program menggunakan video static
+
+#Checklist chalange
+- Desain Database  (Done) 
+- Pengumpulan Dataset (Done)
+- Object Detection & Tracking (Done) 
+- Counting & Polygon Area  (Done) 
+- Integrasi API (API/Front End) (Done)
+- Deployment (Done)
