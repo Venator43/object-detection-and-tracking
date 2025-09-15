@@ -1,0 +1,11 @@
+pymysql
+PyYAML
+ultralytics
+urljoin
+m3u8
+requests
+numpy
+opencv-python
+sqlalchemy
+fastapi
+uvicorn

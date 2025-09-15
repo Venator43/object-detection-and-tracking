@@ -1,0 +1,21 @@
+
+services:
+  app1:
+    build: .
+    command: python main.py
+    volumes:
+      - .:/app
+    working_dir: /app
+    restart: unless-stopped
+    container_name: livestream
+
+  app2:
+    build: .
+    command: uvicorn api:app --host 0.0.0.0 --port 8001
+    volumes:
+      - .:/app
+    working_dir: /app
+    restart: unless-stopped
+    container_name: api
+    ports:
+      - "8001:8000" 
