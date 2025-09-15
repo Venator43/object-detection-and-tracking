@@ -3,6 +3,8 @@
 # Database
 Berikut adalah design dari database yang saya buat, disini terdapat 3 buah table, dua diantara memiliki relasi ke dalam table polygon
 
+![alt text](https://github.com/Venator43/object-detection-and-tracking/blob/main/Diagram/sh-Page-1.drawio.png)
+
 Untuk database yang saya gunakan sendiri, saya menggunakan MySQL dan saya sudah menyediakan file sql bernama "hd.sql" yang dapat langsung anda import untuk dapat menjalankan aplikasi saya
 
 # Datasets
