@@ -8,5 +8,5 @@ numpy
 sqlalchemy
 fastapi
 uvicorn
-opencv-python
+opencv-python-headless
 flask
