@@ -13,6 +13,7 @@ Untuk aplikasi utamanya sendiri, saya menggunakan video live stream yang saya da
 
 # Object Detection & Tracking
 Design system object detection yang saya kembangkan adalah sebagai berikut
+![alt text](https://github.com/Venator43/object-detection-and-tracking/blob/main/Diagram/hs.drawio.png)
 
 # Deployment
 sebelum anda menjalankan program saya, pertama anda harus mengimport database yang telah saya buat, kemudian, anda harus menambahkan configurasi dabase anda ke dalam file "config.yaml"
