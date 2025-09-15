@@ -25,7 +25,7 @@ Jika anda tidak menggunakan docker, pertama anda harus menginstall package yang 
 
 Selain menggunakan website untuk menjalankan program object detection dan tracking, anda juga dapat menjalankan versi non-web program dengan menjalankan command "python live.py" untuk menjalankan program menggunakan video livestream atau "python static.py" untuk menjalankan program menggunakan video static
 
-# Checklist chalange
+# Checklist challenge
 - Desain Database  (Done) 
 - Pengumpulan Dataset (Done)
 - Object Detection & Tracking (Done) 
