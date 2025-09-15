@@ -19,7 +19,7 @@ Design system object detection yang saya kembangkan adalah sebagai berikut
 sebelum anda menjalankan program saya, pertama anda harus mengimport database yang telah saya buat, kemudian, anda harus menambahkan configurasi dabase anda ke dalam file "config.yaml"
 
 Saya menyediakan 2 cara untuk menjalnkan program yang saya buat, satu melalui docker, dan satu tanpa menggunakan docker
-untuk menjalankan program yang telah saya buat menggunakan docker, anda dapat dengan mudah menggunakan command "docker-compose up" untuk mem-build dan menjalankan program didalam docker, kemudian, anda dapat mengakses video object detection dengan memasuki URL : "http://localhost:5000/" dan untuk mengakses API dapat masuk URL : "http://localhost:8000/docs"
+untuk menjalankan program yang telah saya buat menggunakan docker, anda dapat dengan mudah menggunakan command "docker-compose up" untuk mem-build dan menjalankan program didalam docker, kemudian, anda dapat mengakses video object detection dengan memasuki URL : "http://localhost:5000/" dan untuk mengakses API dapat masuk URL : "http://localhost:8001/docs"
 
 Jika anda tidak menggunakan docker, pertama anda harus menginstall package yang dibutuhkan dengan menggunakan command "pip install -r requirements.txt" kemudian anda dapat menjalankan program API dengan cara menggunakan command "python api.py" dan menjalankan program object detection dengan menggunakan command "python main.py" setelah emnjalankan kedua program tersebut, sama seperti pada docker anda dapat mengakses API dengan cara memasuki URL : "http://localhost:8000/docs" dan video object detection dengan cara memasuki URL : "http://localhost:5000/"
 
